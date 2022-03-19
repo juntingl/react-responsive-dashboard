@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b53782f0.css",
+    "main.js": "/static/js/main.9c0cf1c5.js",
+    "static/media/expenseLogo5.png": "/static/media/expenseLogo5.987abc1cc8e1fae7374e.png",
+    "static/media/expenseLogo4.png": "/static/media/expenseLogo4.2bd25e04f3c4c40ebb27.png",
+    "static/media/expenseLogo2.png": "/static/media/expenseLogo2.d77d33a0c43ef2839aa8.png",
+    "static/media/expenseLogo6.png": "/static/media/expenseLogo6.3debb643bbb97747b826.png",
+    "static/media/expenseLogo7.png": "/static/media/expenseLogo7.cd6fc65828e8c691a311.png",
+    "static/media/avatarImage.jpeg": "/static/media/avatarImage.91d747660e65dc3f5f1d.jpeg",
+    "static/media/wallet2.png": "/static/media/wallet2.183552a5edf672b2dee0.png",
+    "static/media/expenseLogo1.png": "/static/media/expenseLogo1.34e55710bd018b86e9e5.png",
+    "static/media/wallet1.png": "/static/media/wallet1.91dd5a762535b1b469c6.png",
+    "static/media/expenseLogo3.png": "/static/media/expenseLogo3.37a901982c2e28ac7449.png",
+    "index.html": "/index.html",
+    "main.b53782f0.css.map": "/static/css/main.b53782f0.css.map",
+    "main.9c0cf1c5.js.map": "/static/js/main.9c0cf1c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b53782f0.css",
+    "static/js/main.9c0cf1c5.js"
+  ]
+}
