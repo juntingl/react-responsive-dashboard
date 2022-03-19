@@ -1,0 +1,47 @@
+@mixin transactions {
+  .transactions {
+    width: 100%;
+    color: white;
+
+    &__info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &__detailed {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        div {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+        }
+      }
+    }
+    &__details {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+      margin: 1rem 0;
+      div {
+        display: flex;
+        gap: 1rem;
+        button {
+          padding: 0.2rem 1rem;
+          border: none;
+          border-radius: 2rem;
+          cursor: pointer;
+          &:nth-of-type(2) {
+            background-color: #ff4d6d;
+            color: white;
+          }
+        }
+      }
+    }
+    &__graph {
+      display: flex;
+      width: 100%;
+      height: 10rem;
+    }
+  }
+}

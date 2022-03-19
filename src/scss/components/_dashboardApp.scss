@@ -1,0 +1,33 @@
+.app {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(6,7,15, 0.938);
+  // 你为一个元素后面区域添加图形效果（如模糊或颜色偏移）。 因为它适用于元素背后的所有元素，为了看到效果，必须使元素或其背景至少部分透明。
+  backdrop-filter: blur(8px);
+  padding: 2rem 1rem;
+  &__grid {
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 2rem;
+    margin-top: 2rem;
+    &__1 {
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      @include wallets;
+      @include expenses;
+      @include transactions;
+    }
+    &__2 {
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      @include overview;
+      @include activityLog;
+    }
+  }
+}
