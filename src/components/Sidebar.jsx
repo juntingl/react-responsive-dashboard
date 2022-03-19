@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { SiGoogleanalytics } from "react-icons/si"
 import { BiNews, BiRocket } from "react-icons/bi"
