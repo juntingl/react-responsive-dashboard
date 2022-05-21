@@ -1,17 +1,16 @@
-import "./scss/styles.scss"
-import DashboardApp from './components/DashboardApp'
-import Sidebar from './components/Sidebar'
+import { Routes, Route } from "react-router-dom";
+import Home from './Home'
+import Page0001 from './0001'
+import Page0002 from './0002'
 
 function App() {
   return (
     <>
-      <div className="dashboard">
-        <Sidebar />
-        <DashboardApp />
-      </div>
-      <div className="shapes__1"></div>
-      <div className="shapes__2"></div>
-      <div className="shapes__3"></div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/0001" element={<Page0001 />}/>
+        <Route path="/0002" element={<Page0002 />}/>
+      </Routes>
     </>
   );
 }
